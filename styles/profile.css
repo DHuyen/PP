@@ -1,0 +1,143 @@
+.profile_page .avatar{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile_page .avatar img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profile_page .avatar span{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff8;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    transition: 0.3 ease-in-out;
+}
+
+.profile_page .avatar:hover span{
+    bottom: -15%;
+}
+
+.profile_page #file_up{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+.profile_page_infor .avatars{
+    width: 260px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 2%;
+    cursor: pointer;
+    left: -36.75%;
+}
+
+.profile_page_infor .avatars img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profile_page_infor .avatars span{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff8;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    transition: 0.3 ease-in-out;
+}
+
+.profile_page_infor .avatars:hover span{
+    bottom: -15%;
+}
+
+.profile_page_infor #file_up{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.background_img{
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/images/76.jpg");
+}
+
+/* modal */
+
+.profile_page_infors .avatars_modal{
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.profile_page_infors .avatars_modal img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profile_page_infors .avatars_modal span{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff8;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    transition: 0.3 ease-in-out;
+}
+
+.profile_page_infors .avatars_modal:hover span{
+    bottom: -15%;
+}
+
+.profile_page_infor #file_up{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
