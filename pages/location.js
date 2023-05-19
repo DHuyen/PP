@@ -63,19 +63,18 @@ const LocationInfor = (props) => {
                     <Nav variant="pills">
                         <Nav.Item style={{ paddingTop: '50px', paddingBottom: '20px' }}>
                             <Nav.Link eventKey="1">ABOUT US</Nav.Link>
-                        </Nav.Item>
-                                                <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
-                            <Nav.Link eventKey="6">CONNECT US</Nav.Link>
+                            <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
+                                <Nav.Link eventKey="2">ORDERING GUIDE</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
+                                <Nav.Link eventKey="3">EXCHANGE POLICY</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
+                                <Nav.Link eventKey="4">PET SERVICES</Nav.Link>
+                            </Nav.Item>
                         </Nav.Item>
                         <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
-                            <Nav.Link eventKey="5">PET SERVICES</Nav.Link>
-                        </Nav.Item>
-                        
-                        <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
-                            <Nav.Link eventKey="2">ORDERING GUIDE</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item style={{ paddingTop: '20px', paddingBottom: '20px' }}>
-                            <Nav.Link eventKey="3">EXCHANGE POLICY</Nav.Link>
+                            <Nav.Link eventKey="5">CONNECT US</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Col>
@@ -160,7 +159,7 @@ const LocationInfor = (props) => {
                             </section>
                         </Tab.Pane>
                         <Tab.Pane eventKey="3">
-                            {/* Return policy */}
+                            {/* Exchange Policy */}
                             <section class="mb-5">
                                 <h2 class="h1-responsive font-weight-bold text-center my-5">Exchange policy at Pet Paradise</h2>
 
@@ -183,7 +182,7 @@ const LocationInfor = (props) => {
                                 </ul>
                             </section>
                         </Tab.Pane>
-                        
+
                         <Tab.Pane eventKey="4">
                             {/* Pet Service */}
                             <section class="mb-5">
@@ -288,7 +287,7 @@ const LocationInfor = (props) => {
 
                             </section>
                         </Tab.Pane>
-                        <Tab.Pane eventKey="6">
+                        <Tab.Pane eventKey="5">
                             <GoogleApiWrapper />
                         </Tab.Pane>
                     </Tab.Content>

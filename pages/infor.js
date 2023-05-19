@@ -224,9 +224,9 @@ const Infor = () => {
                         </div>
                         <div class="modal-body profile_page_infors">
                             <div className="col-md-12">
-                                <h3 className="text-center text-uppercase">
+                                {/* <h3 className="text-center text-uppercase">
                                     {auth?.user?.role === "User" ? "User profile" : "Admin profile"}
-                                </h3>
+                                </h3> */}
 
                                 <div className="avatars_modal">
                                     <img

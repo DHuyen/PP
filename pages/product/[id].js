@@ -60,7 +60,7 @@ const DetailProduct = (props) => {
     }
 
     const isActive = (index) => {
-        if (tab === index) return " active";
+        if (tab === index) return "active";
         return ""
     }
 
@@ -222,7 +222,7 @@ const DetailProduct = (props) => {
                 <div class="container py-5">
                     <div class="row d-flex justify-content-center">
                         <div class="col-md-16 col-lg-12">
-                            {/* <div class="row d-flex justify-content-end mr-4 mb-2 py-2">
+                            <div class="row d-flex justify-content-end mr-4 mb-2 py-2">
                                 {
                                     golobalCheckDupicate?.length > 0 ?
                                         <span onClick={handleLike}>
@@ -252,7 +252,7 @@ const DetailProduct = (props) => {
                                 <span>
                                     <Comment />
                                 </span>
-                            </div> */}
+                            </div>
 
                             <div class="row d-flex justify-content-end mr-2 mb-2 ">
                                 {product?.like?.length} Like

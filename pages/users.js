@@ -51,9 +51,9 @@ const Users = () => {
                                     }
                                 </th>
                                 <th>
-                                    {/* <Link href={`/edit_user/${user._id}`}>
+                                    <Link href={`/edit_user/${user._id}`}>
                                         <a><i className="fas fa-edit text-info mr-2" title="Edit"></i></a>
-                                    </Link> */}
+                                    </Link>
 
                                     {
                                         <i className="fas fa-trash-alt text-danger ml-2" title="Remove"
