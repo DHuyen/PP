@@ -48,7 +48,7 @@ function Layout({ children }) {
 
   useEffect(() => {
     var chatbox = document?.getElementById("fb-customer-chat");
-    chatbox.setAttribute("page_id", "105674915691187");
+    chatbox.setAttribute("page_id", "107079569045086");
     chatbox.setAttribute("attribution", "biz_inbox");
 
 
